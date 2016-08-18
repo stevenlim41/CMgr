@@ -29,5 +29,7 @@ namespace CMgr.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<CMgr.Models.Contact> Contacts { get; set; }
     }
 }
